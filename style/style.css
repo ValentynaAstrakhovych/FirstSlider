@@ -45,7 +45,7 @@ body {
   }
   
   
-  .projects-navigation__list_active a{
+  .projects-navigation__list__item_active{
     color: #e3b873;
     border-bottom: 1px solid;
   }

@@ -41,6 +41,7 @@ const entities = [
   const pointSelector= document.querySelector(".dots-navigation_item")
   const citySelector = document.querySelector(".projects-navigation__list__item")
    
+  const halifax = document.querySelector(".halifax")
   
   let currentIndex = 0;
   
@@ -60,3 +61,7 @@ const entities = [
     }
     setEntity(currentIndex);
   })
+
+  if(currentIndex==0){img.style.backgroundImage = `url(${entities[0].img})`;
+  halifax.style.color="#e3b873"; 
+  halifax.style.borderBottom='1px solid'} 
